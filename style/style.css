@@ -1,0 +1,198 @@
+.fondo {
+    body {
+        background-color: tan;
+        color: black;
+    }
+
+    @media screen and (max-width: 500px) {
+        body {
+            background-color: blue;
+            color: white;
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        body {
+            background-color: olive;
+            color: white;
+        }
+    }
+
+    @media screen and (min-width: 916px) {
+        body {
+            background-color: green;
+            color: white;
+        }
+    }
+}
+
+
+#logo {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 150px;
+    margin: 0%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 135px;
+    vertical-align: middle;
+
+}
+
+.menu {
+    align-content: center;
+    text-align: center;
+}
+
+
+h1 {
+    color: rgba(0, 0, 0, 0.671);
+    font-family: impact fantasy;
+    text-align: center;
+    border-style: solid;
+    border-width: 8px;
+    border-color: lightslategrey;
+    font-size: 5opx;
+}
+
+h2 {
+    color: rgba(122, 32, 59, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+h5 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+h6 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ul-type {
+    list-style-type: none;
+}
+
+
+
+ul {
+    list-style-type: circle;
+}
+
+.listado-menu {
+    background-color: burlywood;
+    display: inline-flex;
+    text-align: center;
+    font-size: x-large;
+}
+
+.sin-subrayar {
+    color: black;
+    text-decoration: none;
+    margin: 40px;
+
+}
+
+.sin-subrayar:hover {
+    background-color: black;
+    text-decoration: none;
+
+}
+
+.sin-subrayar:visited {
+    color: rgba(122, 32, 59, 0.911);
+}
+
+.titulo {
+    text-align: center;
+}
+
+/* Contenido de la pagina */
+.imagen-principal {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #c58fb8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* IMAGENES PROGRAMAS */
+
+
+#contenedor {
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+
+.imagen {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    /* Pequeño margen de separación entre las imágenes */
+    display: block;
+}
+
+.texto {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 135px;
+    vertical-align: middle;
+
+
+}
+
+/* NUTRICION*/
+.que-comer {
+    display: inline-flex;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    text-align: center;
+
+}
