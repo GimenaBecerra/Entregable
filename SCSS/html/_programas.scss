@@ -1,0 +1,34 @@
+main {
+    #contenedor {
+        margin: 20px;
+        position: relative;
+        display: inline-block;
+
+        .imagen {
+            max-width: 50%;
+            height: auto;
+            margin-bottom: 10px;
+            /* Pequeño margen de separación entre las imágenes */
+            display: block;
+        }
+
+        .texto {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 110%;
+            text-align: left;
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            display: inline-block;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin: 5%;
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            height: 135px;
+            vertical-align: middle;
+        }
+    }
+}

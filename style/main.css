@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  color: black;
+}
+
+header #logo {
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 150px;
+  margin: 0%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 135px;
+  vertical-align: middle;
+}
+header .menu {
+  align-content: center;
+  text-align: center;
+}
+header h1 {
+  color: rgba(0, 0, 0, 0.671);
+  font-family: impact fantasy;
+  text-align: center;
+  border-style: solid;
+  border-width: 8px;
+  border-color: lightslategrey;
+  font-size: 5opx;
+}
+header h2 {
+  color: rgba(122, 32, 59, 0.911);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+nav .ul-type {
+  list-style-type: none;
+}
+nav ul {
+  list-style-type: circle;
+}
+nav ul .listado-menu {
+  background-color: burlywood;
+  display: inline-flex;
+  text-align: center;
+  font-size: x-large;
+}
+nav ul .sin-subrayar {
+  color: black;
+  text-decoration: none;
+  margin: 40px;
+}
+nav ul .sin-subrayar:hover {
+  background-color: black;
+  text-decoration: none;
+}
+nav ul .sin-subrayar:visited {
+  color: rgba(122, 32, 59, 0.911);
+}
+
+h3 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+h4 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+h5 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+h6 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 960px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+}
+@media screen and (min-width: 916px) {
+  body {
+    background-color: green;
+    color: white;
+  }
+}
+.que-comer {
+  display: inline-flex;
+  text-align: center;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+  text-align: center;
+  text-decoration: dashed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+main #contenedor {
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+}
+main #contenedor .imagen {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+  /* Pequeño margen de separación entre las imágenes */
+  display: block;
+}
+main #contenedor .texto {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 110%;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  height: 135px;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=main.css.map */
